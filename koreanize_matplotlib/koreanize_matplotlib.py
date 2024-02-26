@@ -1,7 +1,7 @@
 import os
 
 # import matplotlib
-from matplotlib import font_manager
+# from matplotlib import font_manager
 from distutils.version import LooseVersion
 
 FONTS_DIR = 'fonts'
