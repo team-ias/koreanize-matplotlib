@@ -32,4 +32,4 @@ def get_font_path():
     return os.path.abspath(os.path.join(os.path.dirname(__file__), FONTS_DIR))
 
 
-koreanize()
+# koreanize()
