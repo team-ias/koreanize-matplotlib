@@ -6,8 +6,6 @@ from os import path
 with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-install_requires = ['matplotlib']
-
 setup(name='koreanize-matplotlib',
       version='0.0.1',
       description='matplotlib의 폰트 설정을 자동으로 한국어화',
@@ -18,7 +16,6 @@ setup(name='koreanize-matplotlib',
       long_description_content_type="text/markdown",
       license='MIT License',
       packages=find_packages(),
-      install_requires=install_requires,
       include_package_data=True,
       package_data={
           'koreanize_matplotlib': ['fonts/*'],
